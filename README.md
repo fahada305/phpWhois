@@ -1,8 +1,11 @@
 FIXED
 --------
 Working with lasted php version in year 2021.
+
 Fixed idna_convert compatibility with latest class (https://github.com/algo26-matthias/idna-convert)
+
 Fixed depricated each function with foreach loop.
+
 
 Introduction
 ------------
