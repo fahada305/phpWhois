@@ -1,3 +1,9 @@
+FIXED
+--------
+Working with lasted php version in year 2021.
+Fixed idna_convert compatibility with latest class (https://github.com/algo26-matthias/idna-convert)
+Fixed depricated each function with foreach loop.
+
 Introduction
 ------------
 
@@ -19,7 +25,7 @@ provided.
 Requirements
 ------------
 
-phpWhois requires PHP 5.3 or better with OpenSSL support to work properly.
+phpWhois requires PHP 7+ or better with OpenSSL support to work properly.
 
 Without SSL support you will not be able to query domains which do not have a whois server but that have a https based whois.
 
@@ -220,3 +226,5 @@ David Saez Padros <david@ols.es>
 Ross Golder <ross@golder.org>
 
 Dmitry Lukashin <dmitry@lukashin.ru>
+
+Fahad Ali <fahada305@gmail.com>
